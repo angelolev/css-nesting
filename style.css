@@ -1,0 +1,52 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+nav {
+  background-color: #34495e;
+  padding: 15px 0;
+
+  & ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+
+    & li {
+      color: #fff;
+    }
+  }
+}
+
+main {
+  padding: 0 10px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #fff;
+
+  &.green {
+    background-color: #27ae60;
+
+    &:hover {
+      background-color: #2ecc71;
+    }
+  }
+
+  &.orange {
+    background-color: #e67e22;
+
+    &:hover {
+      background-color: #d35400;
+    }
+  }
+}
